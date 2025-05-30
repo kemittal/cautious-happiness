@@ -2,12 +2,13 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 
-st.logo("C:\\Users\\kesha\\Documents\\Kellanova\\Kellogg's-Logo.svg.png",size='large')
-st.title("Breakfast Nutritional Comparison")
-st.image("C:\\Users\\kesha\\Documents\\Kellanova\\Chocos logo.png")
 
-df1 = pd.read_excel('C:\\Users\\kesha\\Documents\\Kellanova\\NutritionalInfo.xlsx')
-df2 = pd.read_excel('C:\\Users\\kesha\\Documents\\Kellanova\\NutritionalInfo.xlsx',sheet_name='Sheet3')
+st.logo("Kellogg's-Logo.svg.png",size='large')
+st.title("Breakfast Nutritional Comparison")
+st.image("Chocos logo.png")
+
+df1 = pd.read_excel('NutritionalInfo.xlsx')
+df2 = pd.read_excel('NutritionalInfo.xlsx')
 food_list = ['Idli Sambar (2 idlis + 1 cup sambar + 1 tbsp chutney)',
 'Plain Dosa (1 dosa + 1 cup sambar + 1 tbsp chutney)',
 'Masala Dosa (1 dosa + 1 cup sambar + 1 tbsp chutney)',

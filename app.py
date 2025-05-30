@@ -3,7 +3,7 @@ import pandas as pd
 import altair as alt
 
 
-st.logo("Kellogg's-Logo.svg.png",size='large')
+st.logo("Kellogg's-Logo.png",size='large')
 st.title("Breakfast Nutritional Comparison")
 st.image("Chocos logo.png")
 

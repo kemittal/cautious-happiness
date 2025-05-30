@@ -3,9 +3,9 @@ import pandas as pd
 import altair as alt
 
 
-st.logo("Kellogg's-Logo.png",size='large')
+st.logo('KelloggLogo.png',size='large')
 st.title("Breakfast Nutritional Comparison")
-st.image("Chocos logo.png")
+st.image('Chocos logo.png')
 
 df1 = pd.read_excel('NutritionalInfo.xlsx')
 df2 = pd.read_excel('NutritionalInfo.xlsx')

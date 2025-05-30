@@ -8,7 +8,7 @@ st.title("Breakfast Nutritional Comparison")
 st.image('Chocos logo.png')
 
 df1 = pd.read_excel('NutritionalInfo.xlsx')
-df2 = pd.read_excel('NutritionalInfo.xlsx')
+df2 = pd.read_excel('NutritionalInfo.xlsx',sheet_name='Sheet3')
 food_list = ['Idli Sambar (2 idlis + 1 cup sambar + 1 tbsp chutney)',
 'Plain Dosa (1 dosa + 1 cup sambar + 1 tbsp chutney)',
 'Masala Dosa (1 dosa + 1 cup sambar + 1 tbsp chutney)',
